@@ -1,0 +1,13 @@
+.reveal h1 span.no-transform,
+.reveal h2 span.no-transform,
+.reveal h3 span.no-transform,
+.reveal h4 span.no-transform,
+.reveal h5 span.no-transform,
+.reveal h6 span.no-transform { text-transform: none; }
+
+.reveal code,
+.reveal code,
+.reveal code,
+.reveal code,
+.reveal code,
+.reveal code { text-transform: none; }
