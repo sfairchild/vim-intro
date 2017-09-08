@@ -11,3 +11,6 @@
 .reveal code,
 .reveal code,
 .reveal code { text-transform: none; }
+
+code.hljs { display: inline; }
+pre code.hljs { display: block; }
