@@ -16,9 +16,10 @@ ______              _        ___  ___        _    _
 ## hjkl
 
 
+```
        k                up
                                                                                  
    h        l     left      right
                                                            
        j               down
-
+```
