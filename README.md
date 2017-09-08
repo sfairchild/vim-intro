@@ -52,7 +52,7 @@ is also considered to be a word.
 A WORD consists of a sequence of non-blank characters, separated with white
 space.  An empty line is also considered to be a WORD.
 
-## Find charecters with (f)ind and (t)ill
+## Find characters with (f)ind and (t)ill
 
 ```F{char}``` ```T{char}``` ```f{char}``` ```t{char}```
 
@@ -71,5 +71,58 @@ Repeat your find in the same direction with ```;``` and reverse with ```,```
 * ```*``` search forward for the closest word to the curror
 * ```n``` continue last search in the same direction
 * ```N``` continue last search in the opposite direction
+
+
+```
+ _____                    _    ___  ___          _      
+|_   _|                  | |   |  \/  |         | |     
+  | | _ __  ___  ___ _ __| |_  | .  . | ___   __| | ___ 
+  | || '_ \/ __|/ _ \ '__| __| | |\/| |/ _ \ / _` |/ _ \
+ _| || | | \__ \  __/ |  | |_  | |  | | (_) | (_| |  __/
+ \___/_| |_|___/\___|_|   \__| \_|  |_/\___/ \__,_|\___|
+```                                                        
+
+## ESC(escape)
+
+Use ```ESC``` to exit insert mode
+
+## Insert and Append
+
+```I``` ```i``` ```a``` ```A```
+
+## o and O
+
+```o``` make new line below current possition and enter insert
+```O``` make new line above current possition and enter insert
+
+
+```
+ _____                      _   _                 
+|  _  |                    | | (_)                
+| | | |_ __   ___ _ __ __ _| |_ _  ___  _ __  ___ 
+| | | | '_ \ / _ \ '__/ _` | __| |/ _ \| '_ \/ __|
+\ \_/ / |_) |  __/ | | (_| | |_| | (_) | | | \__ \
+ \___/| .__/ \___|_|  \__,_|\__|_|\___/|_| |_|___/
+      | |                                         
+      |_|                                         
+```
+
+## Anatomy of a motion
+
+(count)[operation]{motion}
+
+## List of common operations
+
+| key  | description    |
+|------+----------------|
+| `d`  | delete text    |
+| `c`  | change text    |
+| `y`  | yank text      |
+| `=`  | auto indent    |
+| `<`  | shift left     |
+| `>`  | shift right    |
+| `g~` | swap case      |
+| `gu` | make lowercase |
+| `gU` | make UPPERCASE |
 
 
