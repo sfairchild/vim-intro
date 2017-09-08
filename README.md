@@ -23,3 +23,26 @@ ______              _        ___  ___        _    _
                                                            
        j               down
 ```
+
+## word and WORD
+
+By word
+
+```b``` ```ge``` ```w``` ```e```
+
+By WORD
+
+```B``` ```gE``` ```W``` ```E```
+
+#### word
+
+A word consists of a sequence of letters, digits and underscores, or a
+sequence of other non-blank characters, separated with white space (spaces,
+tabs, <EOL>).  This can be changed with the 'iskeyword' option.  An empty line
+is also considered to be a word.
+
+#### WORD
+
+A WORD consists of a sequence of non-blank characters, separated with white
+space.  An empty line is also considered to be a WORD.
+
