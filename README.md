@@ -24,6 +24,12 @@ ______              _        ___  ___        _    _
        j               down
 ```
 
+## 0 ^ and $
+
+* ```0``` Goto the very begining of the line
+* ```^``` Goto the first none blank charecter of a line
+* ```$``` Goto the end of a line
+
 ## Navigate by word and WORD
 
 By word
@@ -65,3 +71,5 @@ Repeat your find in the same direction with ```;``` and reverse with ```,```
 * ```*``` search forward for the closest word to the curror
 * ```n``` continue last search in the same direction
 * ```N``` continue last search in the opposite direction
+
+
