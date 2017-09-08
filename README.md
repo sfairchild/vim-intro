@@ -113,16 +113,16 @@ Use ```ESC``` to exit insert mode
 
 ## List of common operations
 
-| key  | description    |
-|------+----------------|
-| `d`  | delete text    |
-| `c`  | change text    |
-| `y`  | yank text      |
-| `=`  | auto indent    |
-| `<`  | shift left     |
-| `>`  | shift right    |
-| `g~` | swap case      |
-| `gu` | make lowercase |
-| `gU` | make UPPERCASE |
+| key    | description      |
+| ------ | ---------------- |
+| `d`    | delete text      |
+| `c`    | change text      |
+| `y`    | yank text        |
+| `=`    | auto indent      |
+| `<`    | shift left       |
+| `>`    | shift right      |
+| `g~`   | swap case        |
+| `gu`   | make lowercase   |
+| `gU`   | make UPPERCASE   |
 
 
