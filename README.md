@@ -57,3 +57,11 @@ Repeat your find in the same direction with ```;``` and reverse with ```,```
 * ```gg``` BOF
 * ```{number}gg``` or ```{number}G``` Line Number
 * ```G``` EOF
+
+## Search for text
+
+* ```/{text}``` search forwards for 'text'
+* ```?{text}``` search backwards for 'text'
+* ```*``` search forward for the closest word to the curror
+* ```n``` continue last search in the same direction
+* ```N``` continue last search in the opposite direction
