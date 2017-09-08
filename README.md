@@ -24,7 +24,7 @@ ______              _        ___  ___        _    _
        j               down
 ```
 
-## word and WORD
+## Navigate by word and WORD
 
 By word
 
@@ -46,3 +46,14 @@ is also considered to be a word.
 A WORD consists of a sequence of non-blank characters, separated with white
 space.  An empty line is also considered to be a WORD.
 
+## Find charecters with (f)ind and (t)ill
+
+```F{char}``` ```T{char}``` ```f{char}``` ```t{char}```
+
+Repeat your find in the same direction with ```;``` and reverse with ```,```
+
+## Navigate to a line number or beginning/end of file
+
+```gg``` BOF
+```{number}gg``` or ```{number}G``` Line Number
+```G``` EOF
