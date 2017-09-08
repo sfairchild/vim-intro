@@ -54,6 +54,6 @@ Repeat your find in the same direction with ```;``` and reverse with ```,```
 
 ## Navigate to a line number or beginning/end of file
 
-```gg``` BOF
-```{number}gg``` or ```{number}G``` Line Number
-```G``` EOF
+* ```gg``` BOF
+* ```{number}gg``` or ```{number}G``` Line Number
+* ```G``` EOF
