@@ -137,5 +137,34 @@ ______           _     _
            |___/                       
 ```
 
-## Understanding registers
+## Copy & Paste
 
+| vim command     | vim verb   | equivalent command  |
+| -------------   | ---------- | ------------------- |
+| `y`             | yank       | copy                |
+| `p`             | put        | paste               |
+| `d` `x` `s` `c` | delete     | cut                 |
+
+## Most used registers
+
+| `"a-"z` | user assigned register    |
+| `"`     | 'unnamed' register        |
+| `"+`    | system clipboard          |
+| `"0`    | yank register             |
+| `"1-"9  | Last delete/yank register |
+
+## Other helpful registers
+
+| `"%` | Current file name   |
+| `".` | Last inserted text  |
+| `":` | Last Ex command     |
+| `"/` | Last search pattern |
+
+## Using named registers
+
+Lowercase letters overwrite the named register.
+
+Uppercase letters append to the named register.
+
+`"ayw` writes the current word to the `a` register 
+`"Ayw` appends the current word to the `a` register 
