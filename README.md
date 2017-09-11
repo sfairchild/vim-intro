@@ -26,6 +26,8 @@ ______              _        ___  ___        _    _
 
 ## 0 ^ and $
 
+|     |                                                |
+| --- | ---                                            |
 | `0` | Go to the very beginning of the line           |
 | `^` | Go to the first none blank character of a line |
 | `$` | Go to the end of a line                        |
@@ -60,12 +62,16 @@ Repeat your find in the same direction with `;` and reverse with `,`
 
 ## Navigate to a line number or beginning/end of file
 
+|                             |                   |
+| ---                         | ---               |
 | `gg`                        | BOF               |
 | `{number}gg` or `{number}G` | Go to line Number |
 | `G`                         | EOF               |
 
 ## Search for text
 
+ |           |                                                   |
+ | ---       | ---                                               |
  | `/{text}` | search forwards for 'text'                        |
  | `?{text}` | search backwards for 'text'                       |
  | `*`       | search forward for the closest word to the cursor |
@@ -139,14 +145,16 @@ ______           _     _
 
 ## Copy & Paste
 
-| vim command     | vim verb   | equivalent command  |
+|                 |            |
 | -------------   | ---------- | ------------------- |
+| vim command     | vim verb   | equivalent command  |
 | `y`             | yank       | copy                |
 | `p`             | put        | paste               |
 | `d` `x` `s` `c` | delete     | cut                 |
 
 ## Most used registers
 
+|         |                           |
 | ---     | ---                       |
 | `"a-"z` | user assigned register    |
 | `"`     | 'unnamed' register        |
@@ -156,6 +164,7 @@ ______           _     _
 
 ## Other helpful registers
 
+|      |                     |
 | ---  | ---                 |
 | `"%` | Current file name   |
 | `".` | Last inserted text  |
