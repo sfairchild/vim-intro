@@ -26,19 +26,19 @@ ______              _        ___  ___        _    _
 
 ## 0 ^ and $
 
-* ```0``` Goto the very begining of the line
-* ```^``` Goto the first none blank charecter of a line
-* ```$``` Goto the end of a line
+| `0` | Go to the very beginning of the line           |
+| `^` | Go to the first none blank character of a line |
+| `$` | Go to the end of a line                        |
 
 ## Navigate by word and WORD
 
 By word
 
-```b``` ```ge``` ```w``` ```e```
+`b` `ge` `w` `e`
 
 By WORD
 
-```B``` ```gE``` ```W``` ```E```
+`B` `gE` `W` `E`
 
 #### word
 
@@ -54,23 +54,23 @@ space.  An empty line is also considered to be a WORD.
 
 ## Find characters with (f)ind and (t)ill
 
-```F{char}``` ```T{char}``` ```f{char}``` ```t{char}```
+`F{char}` `T{char}` `f{char}` `t{char}`
 
-Repeat your find in the same direction with ```;``` and reverse with ```,```
+Repeat your find in the same direction with `;` and reverse with `,`
 
 ## Navigate to a line number or beginning/end of file
 
-* ```gg``` BOF
-* ```{number}gg``` or ```{number}G``` Line Number
-* ```G``` EOF
+| `gg`                        | BOF               |
+| `{number}gg` or `{number}G` | Go to line Number |
+| `G`                         | EOF               |
 
 ## Search for text
 
-* ```/{text}``` search forwards for 'text'
-* ```?{text}``` search backwards for 'text'
-* ```*``` search forward for the closest word to the curror
-* ```n``` continue last search in the same direction
-* ```N``` continue last search in the opposite direction
+ | `/{text}` | search forwards for 'text'                        |
+ | `?{text}` | search backwards for 'text'                       |
+ | `*`       | search forward for the closest word to the cursor |
+ | `n`       | continue last search in the same direction        |
+ | `N`       | continue last search in the opposite direction    |
 
 
 ```
@@ -84,16 +84,16 @@ Repeat your find in the same direction with ```;``` and reverse with ```,```
 
 ## ESC(escape)
 
-Use ```ESC``` to exit insert mode
+Use `ESC` to exit insert mode
 
 ## Insert and Append
 
-```I``` ```i``` ```a``` ```A```
+`I` `i` `a` `A`
 
 ## o and O
 
-```o``` make new line below current possition and enter insert
-```O``` make new line above current possition and enter insert
+`o` make new line below current position and enter insert
+`O` make new line above current position and enter insert
 
 
 ```
@@ -111,7 +111,7 @@ Use ```ESC``` to exit insert mode
 
 (count)[operation]{motion}
 
-## List of common operations
+## Common operations
 
 | key    | description      |
 | ------ | ---------------- |
@@ -125,4 +125,17 @@ Use ```ESC``` to exit insert mode
 | `gu`   | make lowercase   |
 | `gU`   | make UPPERCASE   |
 
+
+```
+______           _     _                
+| ___ \         (_)   | |               
+| |_/ /___  __ _ _ ___| |_ ___ _ __ ___ 
+|    // _ \/ _` | / __| __/ _ \ '__/ __|
+| |\ \  __/ (_| | \__ \ ||  __/ |  \__ \
+\_| \_\___|\__, |_|___/\__\___|_|  |___/
+            __/ |                       
+           |___/                       
+```
+
+## Understanding registers
 
