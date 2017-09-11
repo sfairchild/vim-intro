@@ -145,7 +145,7 @@ ______           _     _
 
 ## Copy & Paste
 
-|                 |            |
+|                 |            |                     |
 | -------------   | ---------- | ------------------- |
 | vim command     | vim verb   | equivalent command  |
 | `y`             | yank       | copy                |
