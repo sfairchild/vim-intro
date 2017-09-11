@@ -148,6 +148,7 @@ ______           _     _
 ## Most used registers
 
 | `"a-"z` | user assigned register    |
+| ---     | ---                       |
 | `"`     | 'unnamed' register        |
 | `"+`    | system clipboard          |
 | `"0`    | yank register             |
@@ -156,6 +157,7 @@ ______           _     _
 ## Other helpful registers
 
 | `"%` | Current file name   |
+| ---  | ---                 |
 | `".` | Last inserted text  |
 | `":` | Last Ex command     |
 | `"/` | Last search pattern |
@@ -167,4 +169,5 @@ Lowercase letters overwrite the named register.
 Uppercase letters append to the named register.
 
 `"ayw` writes the current word to the `a` register 
+
 `"Ayw` appends the current word to the `a` register 
