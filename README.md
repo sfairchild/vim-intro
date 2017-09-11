@@ -147,8 +147,8 @@ ______           _     _
 
 ## Most used registers
 
-| `"a-"z` | user assigned register    |
 | ---     | ---                       |
+| `"a-"z` | user assigned register    |
 | `"`     | 'unnamed' register        |
 | `"+`    | system clipboard          |
 | `"0`    | yank register             |
@@ -156,8 +156,8 @@ ______           _     _
 
 ## Other helpful registers
 
-| `"%` | Current file name   |
 | ---  | ---                 |
+| `"%` | Current file name   |
 | `".` | Last inserted text  |
 | `":` | Last Ex command     |
 | `"/` | Last search pattern |
