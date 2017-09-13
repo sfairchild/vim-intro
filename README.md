@@ -180,3 +180,47 @@ Uppercase letters append to the named register.
 `"ayw` writes the current word to the `a` register 
 
 `"Ayw` appends the current word to the `a` register 
+
+
+```
+___  ___                         
+|  \/  |                         
+| .  . | __ _  ___ _ __ ___  ___ 
+| |\/| |/ _` |/ __| '__/ _ \/ __|
+| |  | | (_| | (__| | | (_) \__ \
+\_|  |_/\__,_|\___|_|  \___/|___/
+```
+
+Repeatable chunck of commands that are stored inside of registers.
+
+## Invoking macros
+
+`@{register}` invokes the macro
+
+`@@` invokes the last used macro
+
+You can prepend a count to a macro for use multiple times
+`3@a`
+
+You can use a range for multiple lines
+`:5,10norm! @a`
+
+
+```
+___  ___           _        
+|  \/  |          | |       
+| .  . | __ _ _ __| | _____ 
+| |\/| |/ _` | '__| |/ / __|
+| |  | | (_| | |  |   <\__ \
+\_|  |_/\__,_|_|  |_|\_\___/
+```
+
+Use `m{character}` to set a mark, where character it `a-z` or `A-Z`
+
+`a-z` are used for local marks
+
+`A-Z` are for global marks
+
+Use `/`{character}` to jump to that exact mark position
+
+Use `'{character}` to jump to the mark line
