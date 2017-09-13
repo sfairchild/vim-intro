@@ -221,6 +221,6 @@ Use `m{character}` to set a mark, where character it `a-z` or `A-Z`
 
 `A-Z` are for global marks
 
-Use ```{character}`` to jump to that exact mark position
+Use `` `{character}`` to jump to that exact mark position
 
 Use `'{character}` to jump to the mark line
